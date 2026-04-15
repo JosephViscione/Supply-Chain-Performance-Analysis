@@ -1,14 +1,14 @@
 # Supply Chain Performance Analysis
 
 **Author:** Joseph Viscione  
-**Tools:** Python, MySQL, Streamlit  
+**Tools:** Excel, Python, MySQL, Streamlit  
 **Data Source:** DataCo Smart Supply Chain Dataset
 
 ---
 
 ## Live Dashboard
 
-[Click here to view the interactive dashboard](https://YOUR-APP-URL.streamlit.app)
+[Click here to view the interactive dashboard](https://supply-chain-performance.streamlit.app)
 
 ---
 
@@ -99,14 +99,7 @@ The following queries were executed in MySQL Workbench to aggregate and analyze 
 
 ## Project Structure
 
-├── data/ # Raw dataset
-├── outputs/ # Exported CSV files for dashboard
-├── Screenshots/ # Python ETL and SQL query images
-├── app.py # Streamlit dashboard
-├── Queries.sql # SQL aggregation queries
-├── Supply_Chain_Analysis.ipynb # Full ETL pipeline (Python)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+![Project Structure](Screenshots/Project_Structure.png)
 
 
 ---
